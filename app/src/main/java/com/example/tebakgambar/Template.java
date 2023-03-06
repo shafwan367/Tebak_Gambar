@@ -35,7 +35,6 @@ public class Template extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(Template.this, Main.class));
                 finish();
-
             }
         });
 
