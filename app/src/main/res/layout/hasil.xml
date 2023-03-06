@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        app:contentPadding="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/statusHasilTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benar"
+                android:textStyle="bold"
+                android:textSize="36sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
